@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Sobre Mi</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -27,13 +27,13 @@
                             <a class="nav-link py-1 px-sm-4 active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link py-1 px-sm-4 active" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link py-1 px-sm-4 active" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" href="contacto.html">Contacto</a>
+                            <a class="nav-link py-1 px-sm-4 active" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -46,7 +46,7 @@
     <main class="container">
         <div class="row">
             <div class="col-12 pt-3 pb-5">
-                <h1>Inicio</h1>
+                <h1>Sobre Mi</h1>
             </div>
         </div>
     </main>
