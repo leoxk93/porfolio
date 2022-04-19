@@ -1,3 +1,7 @@
+<?php
+$pg = "contacto"; 
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,35 +18,7 @@
 </head>
 
 <body id="contacto">
-    <header class="container">
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-sm-4 active" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex">
-                        <a class="btn btn-outline-success" type="submit">Descargar mi CV</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include_once "header.php"; ?>
     <main class="container">
         <div class="row">
             <div class="col-12 pt-3 pb-5">
@@ -56,26 +32,22 @@
             <div class="col-sm-6 col-12">
                 <form action="" method="POST">
                     <div class="mb-3">
-                        <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre"
-                            class="form-control shadow">
+                        <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <input type="email" id="txtCorreo" name="txtCorreo" placeholder="Correo"
-                            class="form-control shadow">
+                        <input type="email" id="txtCorreo" name="txtCorreo" placeholder="Correo" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp"
-                            class="form-control shadow">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje"
-                            class="form-control shadow"></textarea>
+                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje" class="form-control shadow"></textarea>
                     </div>
                     <div class="mb-3">
                         <button type="submit" id="btnEnviar" name="btnEnviar" class="btn px-4">ENVIAR</button>
                     </div>
                 </form>
-        </div>
+            </div>
 
     </main>
     <footer class="container mt-5">
@@ -86,12 +58,12 @@
             </div>
             <div class="col-3">Sponsor <a href="https://depcsuite.com">DePC Suite</a></div>
             <div class="col-3"><a href="mailto:leo_xk93@hotmail.com.ar>">leo_xk93@hotmail.com.ar</a></div>
-           
+
         </div>
     </footer>
     <div class="whatsapp pt-3 pb-4 px-3">
         <a href="https://api.whatsapp.com/send?phone=541162423341">
-        <i class="fa-brands fa-whatsapp"></i></a>
+            <i class="fa-brands fa-whatsapp"></i></a>
     </div>
 </body>
 
