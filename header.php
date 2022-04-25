@@ -21,7 +21,7 @@
                         </li>
                     </ul>
                     <div class="d-flex">
-                        <a class="btn btn-outline-success" type="submit">Descargar mi CV</a>
+                        <a href="Curriculum vitae.docx" class="btn btn-outline-success" type="submit">Descargar mi CV</a>
                     </div>
                 </div>
             </div>

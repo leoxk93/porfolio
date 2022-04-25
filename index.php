@@ -1,5 +1,5 @@
 <?php
-$pg = "inicio"; 
+$pg = "inicio";
 ?>
 
 <!DOCTYPE html>
@@ -16,26 +16,31 @@ $pg = "inicio";
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 
-    
-<body id="Inicio">
-    <?php include_once "header.php"; ?>
+    <title>Proyectos</title>
+</head>
 
+<body id="inicio">
+<?php include_once("header.php"); ?>
     <main class="container">
         <div class="row">
-            <div class="col-12 pt-3 pb-5">
-                <h1>Inicio</h1>
+            <div class="col-12 mt-4 text-center div-cohete">
+                <a href="proyectos.php"><img src="images/cohete.svg" class="cohete"></a>
+            </div>
+            
+        <div class="row">
+            <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
+                <div class="input-home">
+                    <p class="p-1">Bienvenid@ a mi sitio web sobre docencia en sistemas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="proyectos.php" class="btn shadow">Conoce mis proyectos</a>
             </div>
         </div>
     </main>
-    <footer class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-            <div class="col-3">Sponsor <a href="https://depcsuite.com">DePC Suite</a></div>
-            <div class="col-3"><a href="mailto:leo_xk93@hotmail.com.ar>">leo_xk93@hotmail.com.ar</a></div>
-           
-        </div>
-        <?php include_once "footer.php"; ?>
+    <?php include_once("footer.php"); ?>
 </body>
+
+</html>
